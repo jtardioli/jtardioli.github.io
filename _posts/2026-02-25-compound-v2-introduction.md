@@ -4,6 +4,9 @@ title: 'Compound V2: Introduction'
 categories: [Protocol Breakdowns, Compound V2]
 tags: [compound, compound v2]     # TAG names should always be lowercase
 date: 2026-02-25 14:40 -0500
+image:
+  path: /assets/img/compoundv2.png
+  alt: Compound V2
 ---
 
 ## Why Compound V2

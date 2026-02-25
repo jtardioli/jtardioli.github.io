@@ -4,6 +4,9 @@ title: 'Compound V2: cTokens and the Exchange Rate'
 categories: [Protocol Breakdowns, Compound V2]
 tags: [compound, compound v2, ctoken, exchange rate, exchangerate]     # TAG names should always be lowercase
 date: 2026-02-25 14:51 -0500
+image:
+  path: /assets/img/compoundv2.png
+  alt: Compound V2
 ---
 
 Compound lets users deposit tokens to earn yield. When you deposit, you receive a cToken in return that represents your position. You can think of a cToken as a receipt for your deposited tokens. Later you will exchange your cTokens for your underlying when you want to redeem them. The exchange rate between cTokens and the underlying token is how that yield is delivered. Over time, each cToken entitles you to more underlying than when you deposited. This article explains what the exchange rate is, how it's calculated, and why it grows.
