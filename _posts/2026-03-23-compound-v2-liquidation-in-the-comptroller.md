@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Compound V2: Comptroller Liquidation'
-date: 2026-03-14 19:43 -0400
+date: 2026-03-23 10:00 -0500
 categories: [Protocol Breakdowns, Compound V2]
 tags: [compound, compound v2, comptroller, liquidation, close factor]     # TAG names should always be lowercase
 image:

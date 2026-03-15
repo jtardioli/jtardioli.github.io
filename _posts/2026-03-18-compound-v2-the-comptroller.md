@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Compound V2: The Comptroller'
-date: 2026-03-14 19:36 -0400
+date: 2026-03-18 10:00 -0500
 categories: [Protocol Breakdowns, Compound V2]
 tags: [compound, compound v2, comptroller, unitroller]     # TAG names should always be lowercase
 image:

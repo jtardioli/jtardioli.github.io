@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Compound V2: COMP Token and Delegation'
-date: 2026-03-14 19:43 -0400
+date: 2026-03-25 10:00 -0500
 categories: [Protocol Breakdowns, Compound V2]
 tags: [compound, compound v2, governance, comp, delegation, checkpoints]     # TAG names should always be lowercase
 image:
