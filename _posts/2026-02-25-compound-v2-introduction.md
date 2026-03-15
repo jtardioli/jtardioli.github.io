@@ -55,8 +55,30 @@ On the other side of every loan is a lender. Lenders deposit assets into the pro
 
   
 
-## What's Next
+## Series Index
 
-  
-
-That's the gist of what will be covered. The next post gets into the actual mechanics, starting with `cTokens` and how interest accrual works under the hood.
+- **CTokens**
+  - [The Exchange Rate](/posts/compound-v2-ctokens-and-the-exhange-rate/)
+  - [The Borrow Index](/posts/compound-v2-tracking-interest-with-the-borrow-index/)
+  - [Fixed-Point Math](/posts/compound-v2-fixed-point-math/)
+  - [Interest Accrual](/posts/compound-v2-how-interest-accrues/)
+  - [Minting and Redeeming](/posts/compound-v2-minting-and-redeeming/)
+  - [Borrowing and Repaying](/posts/compound-v2-borrowing-and-repaying/)
+  - [Liquidation](/posts/compound-v2-liquidation/)
+  - [CErc20 and CEther](/posts/compound-v2-cerc20-and-cether/)
+  - [The Proxy Pattern](/posts/compound-v2-the-proxy-pattern/)
+- **The Comptroller**
+  - [The Comptroller](/posts/compound-v2-the-comptroller/)
+  - [Market Listing and Entering](/posts/compound-v2-market-listing-and-entering/)
+  - [Exiting a Market](/posts/compound-v2-exiting-a-market/)
+  - [Account Liquidity](/posts/compound-v2-account-liquidity/)
+  - [Comptroller Permission System](/posts/compound-v2-comptroller-permission-system/)
+  - [Comptroller Liquidation](/posts/compound-v2-liquidation-in-the-comptroller/)
+- **Interest Rate Models**
+  - [Interest Rate Models](/posts/compound-v2-interest-rate-models/)
+- **Governance**
+  - [COMP Token and Delegation](/posts/compound-v2-comp-token-and-delegation/)
+  - [Proposals and Voting](/posts/compound-v2-proposals-and-voting/)
+  - [Proposal Execution and Timelock](/posts/compound-v2-proposal-execution-and-timelock/)
+- **Rewards**
+  - [COMP Reward Distribution](/posts/compound-v2-comp-reward-distribution/)

@@ -11,6 +11,7 @@ series: "Compound V2"
 series_index: 4
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
 
 
 This article explains the fixed-point math behind Compound. Understanding this is a crucial stepping stone to understanding the rest of the calculations in the protocol. All the code referenced here is from `ExponentialNoError.sol`.

@@ -11,6 +11,7 @@ series: "Compound V2"
 series_index: 3
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
 
 
 To build a lending protocol, you need a way to track how much debt each borrower owes as it accumulates over time. Compound tracks interest on a block-by-block basis, meaning debt accrues with each new Ethereum block (roughly every 12-15 seconds). Getting this right matters because without accurate debt tracking, borrowers could underpay and lenders would not receive the interest they are owed. This article explains how Compound handles this efficiently using a single accumulating value called the `borrowIndex`.

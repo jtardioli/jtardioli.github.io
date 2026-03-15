@@ -11,6 +11,8 @@ series: "Compound V2"
 series_index: 10
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
+
 The blockchain is immutable. Once a contract is deployed, there is no way to update it. This is by design, but it creates a practical problem: if a bug is discovered or an optimization identified, an entirely new contract must be deployed. Every user and frontend that stored the old address has to migrate.
 
 Proxy patterns solve this. They allow a contract's logic to be updated while keeping its address fixed. Users and frontends interact with one stable address, and the underlying logic can be swapped without anyone needing to update their references.

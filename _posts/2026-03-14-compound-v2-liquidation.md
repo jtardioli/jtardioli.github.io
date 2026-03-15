@@ -11,6 +11,8 @@ series: "Compound V2"
 series_index: 8
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
+
 This article walks through liquidation in Compound's `cToken` contract. Liquidation is how the protocol recovers bad debt: when a borrower's position becomes insolvent, a third party called the liquidator can repay part of their debt in exchange for a discounted portion of their collateral.
 
 Unlike minting, redeeming, borrowing, and repaying, liquidation spans two separate `cToken` contracts. Understanding why requires a quick recap of how Compound's markets work.

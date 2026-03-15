@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Compound V2: Liquidation in the Comptroller'
+title: 'Compound V2: Comptroller Liquidation'
 date: 2026-03-14 19:43 -0400
 categories: [Protocol Breakdowns, Compound V2]
 tags: [compound, compound v2, comptroller, liquidation, close factor]     # TAG names should always be lowercase
@@ -10,6 +10,8 @@ image:
 series: "Compound V2"
 series_index: 16
 ---
+
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
 
 The previous article covered the Comptroller's permission hooks but skipped the liquidation-related functions. This article walks through the three that were left out: `liquidateBorrowAllowed`, `seizeAllowed`, and `liquidateCalculateSeizeTokens`.
 

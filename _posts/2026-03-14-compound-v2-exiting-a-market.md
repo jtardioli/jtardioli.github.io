@@ -11,6 +11,8 @@ series: "Compound V2"
 series_index: 13
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
+
 The previous article covered how markets are listed and how users enter them. This article covers the inverse: how a user exits a market they have entered.
 
 Entering a market opts a user's supply into the liquidity calculation, allowing it to serve as collateral. Exiting removes it. Once a user exits a market, their cToken balance in that market is no longer counted toward their borrow power. This also means those cTokens can no longer be seized in a liquidation.

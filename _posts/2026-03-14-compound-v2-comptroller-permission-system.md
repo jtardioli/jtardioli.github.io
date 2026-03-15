@@ -11,6 +11,8 @@ series: "Compound V2"
 series_index: 15
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
+
 ## The Division of Responsibility
 
 The previous article covered how the Comptroller determines whether an account is solvent. This article covers where that calculation actually gets used. Before executing any state-changing operation, a cToken calls the Comptroller through a pair of hook functions. The first, named with an `*Allowed` suffix, runs before the action and either permits or blocks it. The second, named with a `*Verify` suffix, runs after the action completes and can revert the transaction if something went wrong.

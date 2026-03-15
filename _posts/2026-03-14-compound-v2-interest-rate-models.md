@@ -11,6 +11,8 @@ series: "Compound V2"
 series_index: 17
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
+
 A previous article showed that the borrow index updates each block as:
 
 ```

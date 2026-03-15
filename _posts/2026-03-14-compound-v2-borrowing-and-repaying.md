@@ -11,6 +11,8 @@ series: "Compound V2"
 series_index: 7
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
+
 This article walks through two core operations in Compound's `cToken` contract: borrowing and repaying. Borrowing is how a user takes underlying tokens out of the protocol against their collateral. Repaying is how a user returns those tokens and clears their debt. Both follow the same defensive structure seen in minting and redeeming.
 
 This article assumes familiarity with the borrow index and `borrowBalanceStoredInternal`. If you haven't read the[ borrow index article](https://cursedid0l.github.io/posts/compound-v2-tracking-interest-with-the-borrow-index/) yet, start there.

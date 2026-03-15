@@ -11,6 +11,8 @@ series: "Compound V2"
 series_index: 20
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
+
 The previous article covered proposal creation and voting, ending with the Pending and Active states. This article picks up after voting ends and covers the remaining proposal states: Defeated, Succeeded, Queued, Executed, Expired, and Canceled.
 
 The remaining states from the `state` function:

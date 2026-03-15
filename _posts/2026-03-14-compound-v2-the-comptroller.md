@@ -11,6 +11,8 @@ series: "Compound V2"
 series_index: 11
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
+
 The Comptroller is the risk engine of Compound. While the cToken contracts handle the mechanics of moving tokens in and out, they defer every decision to the Comptroller. Before a user can mint, borrow, redeem, or liquidate, the cToken asks the Comptroller for permission. The Comptroller enforces collateral factors, checks whether a position is solvent, determines how much of a borrow can be liquidated, and distributes COMP rewards.
 
 ## The Unitroller

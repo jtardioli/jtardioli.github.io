@@ -11,6 +11,7 @@ series: "Compound V2"
 series_index: 6
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
 
 
 This article walks through two core operations in Compound's `cToken` contract: minting and redeeming. Minting is how a user supplies underlying tokens to the protocol and receives `cTokens` in return. Redeeming is the reverse: the user returns `cTokens` and gets their underlying tokens back. Both operations share a common structure, and understanding one makes the other straightforward.

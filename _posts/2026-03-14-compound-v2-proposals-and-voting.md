@@ -11,6 +11,8 @@ series: "Compound V2"
 series_index: 19
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
+
 The previous article covered the COMP token, delegation, and checkpoints. This article covers how proposals are created and voted on. All of this is handled by GovernorBravo, found in `contracts/Governance/GovernorBravoDelegate.sol`.
 
 Compound originally used GovernorAlpha. GovernorBravo replaced it with three additions: abstain votes, updatable parameters, and the proxy pattern. The contract is called `GovernorBravoDelegate` because it sits behind a `GovernorBravoDelegator` proxy. This follows a similar proxy structure to the other Compound contracts covered earlier in the series. The contract inherits from `GovernorBravoDelegateStorageV2`, which holds all the state variables.

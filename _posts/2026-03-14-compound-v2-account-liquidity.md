@@ -11,6 +11,8 @@ series: "Compound V2"
 series_index: 14
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
+
 One function underpins nearly every permission check in the Comptroller: `getHypotheticalAccountLiquidityInternal`. The previous articles walked through minting, borrowing, and redeeming while treating the Comptroller as a black box. This section opens that box. Specifically, this function answers two questions:
 
 1. Is an account currently solvent? That is, does it have enough collateral to cover what it has borrowed?

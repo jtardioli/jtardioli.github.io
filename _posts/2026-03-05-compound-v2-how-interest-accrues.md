@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Compound V2: How Interest Accrues'
+title: 'Compound V2: Interest Accrual'
 date: 2026-03-05 09:48 -0500
 categories: [Protocol Breakdowns, Compound V2]
 tags: [compound, compound v2, interest, accrueInterest]     # TAG names should always be lowercase
@@ -10,6 +10,8 @@ image:
 series: "Compound V2"
 series_index: 5
 ---
+
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
 
 The `accrueInterest` function is the backbone of the Compound protocol. It is called before most actions in the protocol to keep all debt up to date. Make sure you have already read the articles on the [exchange rate](https://cursedid0l.github.io/posts/compound-v2-ctokens-and-the-exhange-rate/), the [borrow index](https://cursedid0l.github.io/posts/compound-v2-tracking-interest-with-the-borrow-index/), and [fixed-point math](https://cursedid0l.github.io/posts/compound-v2-fixed-point-math/).
 

@@ -11,6 +11,8 @@ series: "Compound V2"
 series_index: 12
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
+
 This article covers two related topics: how Compound admins list new assets as markets, and how users enter those markets to supply collateral or borrow.
 
 ## Adding a Market

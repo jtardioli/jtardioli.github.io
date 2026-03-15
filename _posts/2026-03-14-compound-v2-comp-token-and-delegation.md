@@ -11,6 +11,8 @@ series: "Compound V2"
 series_index: 18
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
+
 Previous articles in this series mentioned that Compound governance can update interest rate models, list new markets, close markets, and more. None of them covered who governs Compound or how the process actually works.
 
 Compound uses a token-based governance model. Anyone can create a proposal, and anyone holding COMP tokens can vote on it. If enough votes are cast in favor, the proposal is executed on-chain. For example, a proposal might update the interest rate model on a particular market.

@@ -11,6 +11,8 @@ series: "Compound V2"
 series_index: 21
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
+
 The flywheel is Compound's system for distributing COMP tokens to suppliers and borrowers. Users earn COMP rewards just by using Compound.
 
 The problem is splitting COMP fairly across thousands of users across multiple markets, with balances changing every block. Looping through every user would cost too much gas.

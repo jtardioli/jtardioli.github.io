@@ -11,6 +11,8 @@ series: "Compound V2"
 series_index: 9
 ---
 
+> This article is part of the Compound V2 series. See the [series index](/posts/compound-v2-introduction/#series-index) for a full list of articles.
+
 `CToken` is an abstract contract. It defines the core logic for minting, redeeming, borrowing, repaying, and liquidating, but it leaves three functions unimplemented:
 
 - `getCashPrior`
